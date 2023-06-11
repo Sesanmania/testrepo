@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 700px;
+            background-color: lightblue;
+            margin-top: 24px;
+            margin-left: 24px;
+            
+        }
+        table,td,th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-size: 24px;
+            
+        }
+
+        td,th{
+            padding: 18px;
+        }
+        #break-line{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>My Time Table</caption>
+        <tr>
+            <td rowspan="6">Hours</td>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <td>mth</td>
+            <td>Gns</td>
+            <td>com</td>
+            <td>Eng</td>
+            <td>frn</td>
+        </tr>
+        
+        <tr>
+            <td>mth</td>
+            <td>Gns</td>
+            <td>com</td>
+            <td>Eng</td>
+            <td>frn</td>
+        </tr>
+        <tr id="break-line">
+            <td colspan="5">Break Time</td>
+        </tr>
+        <tr>
+            <td>mth</td>
+            <td>Gns</td>
+            <td>com</td>
+            <td>Eng</td>
+            <td>frn</td>
+        </tr>
+        <tr>
+            <td>mth</td>
+            <td>Gns</td>
+            <td>com</td>
+            <td>Eng</td>
+            <td>frn</td>
+        </tr>
+    </table>
+</body>
+</html>
