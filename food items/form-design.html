@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            background-color: white;
+            width: 500px;
+            padding: 20px;
+            border-radius: 20px;
+            margin-right: auto;
+            margin-left: auto;
+
+        }
+        #submit{
+            background-color: green;
+            margin-left: 80px;
+            width: 100px;
+            height: 30px;
+            margin-top: 10px;
+        }
+        .bold{
+            font-weight: bold;
+        }
+        .head{
+            text-align: center;
+        }
+        .size{
+            font-size: 15px;
+            width: 100%;
+        }
+        #text-fill{ 
+          width: 100%;
+          border-radius: 10px;
+          height: 20px;
+        }
+    
+    </style>
+</head>
+<body style="background-color: lightblue;">
+    <h3 class="head">Idea submission form</h3>
+<form>
+    <div>
+        <p class="bold">Name</p>
+        <input id="text-fill" type="first-name" name="first-name">
+        <p class="size">First Name</p>
+    </div>
+    <div>
+        <input id="text-fill"type="surname" name="surname">
+        <p class="size">Surname</p>
+    </div>
+    
+    <div>
+        <p class="bold">Email</p>
+        <input id="text-fill"type="email" name="email">
+        <p class="size">adebayo@gmail.com</p>
+    </div>
+    <div>
+        <p class="bold">Department</p>
+        <select>
+            <option>pharmacy</option>
+            <option>lab</option>
+            <option>physio</option>
+        </select>
+    </div>
+    <div>
+        <p>Subject of the area</p>
+        <input id="text-fill"type="text">
+    </div>
+    <p class="bold">Description of the area</p>
+    <textarea name="type here" cols="30" rows="5">type here...</textarea>
+   </div>
+   <input id="submit" type="submit" value="submit">
+
+</form>
+</body>
+</html>

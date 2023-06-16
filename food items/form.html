@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .form{
+        width: 300px;
+        background-color: white;
+        padding: 24px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .input-type{
+        margin: 0;
+        margin-top:15px;
+        margin-bottom: 6px;
+        
+      }
+      .input{
+        width: 100%;
+        border-radius: 10px;
+        font-size: 20px;
+      }
+      .checkbox{
+        margin-top: 10px;
+        margin-bottom: 18px;
+        
+      }
+      #Signup{
+        text-align: center;
+      }
+      
+    </style>
+</head>
+<body style="background-color: lightblue">
+<!--<form>
+    Username: <br><input type="text" name="Username"><br>
+    password: <br><input type="password" name="password">
+    <br>
+    <input type="submit" value="login">
+
+</form>-->
+<h1 id="Signup">Signup</h1>
+<form class="form" method="post">
+
+    <div>
+   <p class="input-type">Full Name:</p>
+   <input class="input"type="full-name" name="full-name">
+   </div> 
+   <div>
+    <p class="input-type">Email:</p>
+    <input class="input" type="email" name="email">
+   </div>
+   <div>
+    <p class="input-type">password:</p>
+    <input class="input"type="password" name="password">
+  </div>
+  <div>
+    <p class="input-type">Confirm password:</p>
+    <input class="input"type="password" name="password">
+    </div>
+    <div>
+       <p class="input-type">Gender:</p>
+       <input type="radio" name="male">male</input>
+       <input type="radio" name="femail">female</input>
+       <input type="radio" name="other">other</input>
+     </div>
+       <div>
+       <p class="input-type">security question:</p>
+       <select class="input"name="security question">
+        <option value="father- name">what's is your father name</option> 
+        <option value="school-name">your Favourite school</option>
+        <option value="pet-name">whats your pet name</option>
+       </select>
+        </div>
+        <div>
+        <textarea class="input"name="answer" rows="4" cols="25"></textarea>
+        </div>
+        <div>
+            <input class="checkbox" type="checkbox" name="terms-condition"> I agree to the terms and condition
+        </div>
+        <input type="submit" value="Register">
+</form>
+</body>
+</html>
