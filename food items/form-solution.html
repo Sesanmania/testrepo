@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            text-align: center;
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+            width: 700px;
+            border: 1px solid #ccc;
+        }
+        body{
+            background-color: #f2f6ff;
+            margin: 0;  
+            padding: 16px;
+        }
+        .image-logo{
+            width: 50px;
+            height: 50px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+        #headings{
+            font-size: 32px;
+            padding-top: 56px;
+            padding-bottom: 32px;
+        }
+        .wrapper{
+            background-color: #f2f6ff;
+            padding: 24px;
+        }
+        .input-box{
+            font-size: 18px;
+            padding-bottom: 12px;
+            margin-bottom: 36px;
+            border: 0;
+            border-bottom: 1px solid #ccc;
+            width: 100%;
+        }
+        #input-wrapper{
+            padding-top: 80px;
+            padding-bottom: 40px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .submit-btn{
+            background-color: #0056ff;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 24px;
+            padding-right: 24px;
+            font-size: 18px;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h2 id="headings">Register</h2>
+        <div class="wrapper">
+            <img class="image-logo" src="https://pluspng.com/img-png/google-logo-png-open-2000.png" alt="google">
+            <img class="image-logo"src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png" alt="facebook">
+            <img class="image-logo"src="https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png" alt="github">
+            <img class="image-logo"class="image-style"src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/linkedin_circle-512.png" alt="linkind">
+        </div>
+        <div id="input-wrapper">
+            <div>
+                <input class="input-box" type="text" name="username" placeholder="Username">
+            </div>
+            <div>
+                <input class="input-box"type="email" name="email" placeholder="Email">
+            </div>
+            <div>
+                <input class="input-box"type="password" name="password" placeholder="Password">
+            </div>
+            <div>
+                <input class="input-box"type="confirm password" name="confirm-password" placeholder="Confirm Password">
+            </div>
+            <input class="submit-btn" type="submit" value="Register">
+        </div>
+    </form>
+</body>
+</html>
